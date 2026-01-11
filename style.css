@@ -1,0 +1,45 @@
+/* Basic Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+body { background: #111; color: #eee; line-height: 1.6; }
+
+/* Container */
+.container { width: 90%; max-width: 1200px; margin: auto; }
+
+/* Header */
+header { background: #000; padding: 20px 0; border-bottom: 3px solid #ffd700; display: flex; align-items: center; justify-content: space-between; }
+header h1 { color: #ffd700; }
+nav ul { list-style: none; display: flex; }
+nav ul li { margin-left: 20px; }
+nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
+#cart-toggle { background: #ffd700; color: #000; border: none; padding: 8px 12px; border-radius: 4px; cursor: pointer; }
+
+/* Cart Sidebar */
+#cart { position: fixed; top: 0; right: -350px; width: 350px; height: 100%; background: #222; color: #fff; padding: 20px; box-shadow: -3px 0 10px rgba(0,0,0,0.5); transition: right 0.3s; overflow-y: auto; z-index: 1000; }
+#cart h2 { margin-bottom: 20px; }
+#cart-items { list-style: none; margin-bottom: 20px; }
+#cart-items li { margin-bottom: 12px; display: flex; justify-content: space-between; }
+#close-cart { background: #ffd700; color: #000; border: none; padding: 8px 12px; border-radius: 4px; cursor: pointer; }
+
+/* Hero */
+#hero { background: url('https://cdn.pixabay.com/photo/2017/05/10/20/20/gamer-2300443_1280.jpg') center/cover no-repeat; padding: 140px 0; text-align: center; }
+#hero h2 { font-size: 3rem; color: #ffd700; margin-bottom: 10px; }
+#hero p { font-size: 1.2rem; margin-bottom: 20px; }
+.btn { background: #ffd700; color: #000; padding: 12px 24px; text-decoration: none; font-weight: bold; border-radius: 5px; }
+
+/* Products */
+#products { padding: 60px 0; text-align: center; }
+#products h2 { color: #ffd700; margin-bottom: 30px; }
+.product-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; }
+.product-card { background: #1a1a1a; border-radius: 10px; width: 250px; padding: 16px; transition: transform 0.3s; }
+.product-card:hover { transform: scale(1.07); }
+.product-card img { width: 100%; border-radius: 10px; }
+.product-card h3 { color: #ffd700; margin: 12px 0; }
+.product-card p { margin-bottom: 10px; }
+.product-card button { width: 100%; background: #ffd700; border: none; padding: 10px; font-weight: bold; cursor: pointer; border-radius: 6px; }
+
+/* About */
+#about { padding: 50px 0; text-align: center; }
+#about h2 { color: #ffd700; margin-bottom: 16px; }
+
+/* Footer */
+footer { background: #000; text-align: center; padding: 18px; }

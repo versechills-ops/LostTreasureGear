@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lost Treasure Gear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Lost Treasure Gear</h1>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#products">Gear</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <button id="cart-toggle">Cart 🛒 (<span id="cart-count">0</span>)</button>
+    </div>
+  </header>
+
+  <!-- Cart Sidebar -->
+  <div id="cart">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="cart-total">0</span></p>
+    <button id="close-cart">Close</button>
+  </div>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container">
+      <h2>Equip Yourself for Victory</h2>
+      <p>Discover premium gaming gear for adventurers and competitive players.</p>
+      <a href="#products" class="btn">Explore Gear</a>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products">
+    <div class="container">
+      <h2>Featured Gaming Gear</h2>
+      <div class="product-grid">
+
+        <div class="product-card" data-price="69.99" data-name="Razer DeathAdder V2">
+          <img src="https://cdn.pixabay.com/photo/2018/05/29/22/38/mouse-3441699_1280.jpg" alt="Razer DeathAdder V2 Mouse">
+          <h3>Razer DeathAdder V2</h3>
+          <p>$69.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-price="129.99" data-name="Corsair K70 RGB Keyboard">
+          <img src="https://cdn.pixabay.com/photo/2017/03/27/14/56/keyboard-2179738_1280.jpg" alt="Corsair K70 RGB Keyboard">
+          <h3>Corsair K70 RGB Keyboard</h3>
+          <p>$129.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-price="149.99" data-name="SteelSeries Arctis 7">
+          <img src="https://cdn.pixabay.com/photo/2017/03/27/13/52/headset-2179267_1280.jpg" alt="SteelSeries Arctis 7 Headset">
+          <h3>SteelSeries Arctis 7</h3>
+          <p>$149.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-price="29.99" data-name="RGB Gaming Mousepad">
+          <img src="https://cdn.pixabay.com/photo/2017/03/23/12/48/mousepad-2161953_1280.jpg" alt="RGB Gaming Mousepad">
+          <h3>RGB Gaming Mousepad</h3>
+          <p>$29.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-price="59.99" data-name="Pro Gaming Controller">
+          <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/controller-1836820_1280.jpg" alt="Pro Gaming Controller">
+          <h3>Pro Gaming Controller</h3>
+          <p>$59.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-price="199.99" data-name="Ergo Gamer Chair">
+          <img src="https://cdn.pixabay.com/photo/2016/03/26/22/13/chair-1284023_1280.jpg" alt="Ergo Gamer Chair">
+          <h3>Ergo Gamer Chair</h3>
+          <p>$199.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-price="249.99" data-name="Ultimate Gamer Desk">
+          <img src="https://cdn.pixabay.com/photo/2016/03/26/22/11/desk-1284019_1280.jpg" alt="Ultimate Gamer Desk">
+          <h3>Ultimate Gamer Desk</h3>
+          <p>$249.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product-card" data-price="19.99" data-name="RGB LED Strip Set">
+          <img src="https://cdn.pixabay.com/photo/2016/03/26/22/12/lights-1284020_1280.jpg" alt="RGB LED Strip Set">
+          <h3>RGB LED Strip Set</h3>
+          <p>$19.99</p>
+          <button>Add to Cart</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2>About Lost Treasure Gear</h2>
+      <p>Your ultimate destination for high‑performance gaming gear. From pro mice to immersive headsets, our collection fuels your gaming journey with style and precision.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Lost Treasure Gear. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
